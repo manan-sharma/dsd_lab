@@ -1,1 +1,1 @@
-# dsd_lab
+# DSD Lab (EC280)
