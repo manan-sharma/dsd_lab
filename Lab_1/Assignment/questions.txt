@@ -1,0 +1,5 @@
+1. 2 bit comparator, with 3 outputs signals namely AGTB, ALTB, AEQB. Write a truth table for this comparator. 
+Draw the gate level diagram and then write a gate level model verilog code for the same.
+
+2. Get the gate level description of a 2:1 MUX. Write a gate level model verilog code for the same. Use 3 such 2:1
+MUX and design a 4:1 MUX. Assume all the inputs are 4 bits each and select lines are 1 bit each.
