@@ -1,0 +1,2 @@
+Task 1: Design a 4x4 array multiplier using full adders(structural coding)
+Task 2: Write a behavourial coding for the same 4x4 multiplier
