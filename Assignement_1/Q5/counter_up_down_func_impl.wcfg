@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="counter_up_down_time_impl.wdb" id="1">
+         <top_modules>
+            <top_module name="counter_up_down" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="50000000001fs"></ZoomEndTime>
+      <Cursor1Time time="50000000000fs"></Cursor1Time>
+   </zoom_setting>
+   <WVObjectSize size="17" />
+   <wvobject db_ref_id="1" fp_name="/counter_up_down/clearBar" type="logic">
+      <obj_property name="ElementShortName">clearBar</obj_property>
+      <obj_property name="ObjectShortName">clearBar</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/counter_up_down/out" type="array">
+      <obj_property name="ElementShortName">out[3:0]</obj_property>
+      <obj_property name="ObjectShortName">out[3:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/counter_up_down/up_downBar" type="logic">
+      <obj_property name="ElementShortName">up_downBar</obj_property>
+      <obj_property name="ObjectShortName">up_downBar</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/counter_up_down/enable" type="logic">
+      <obj_property name="ElementShortName">enable</obj_property>
+      <obj_property name="ObjectShortName">enable</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/counter_up_down/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/counter_up_down/clearBar_IBUF" type="logic">
+      <obj_property name="ElementShortName">clearBar_IBUF</obj_property>
+      <obj_property name="ObjectShortName">clearBar_IBUF</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/counter_up_down/clk_IBUF" type="logic">
+      <obj_property name="ElementShortName">clk_IBUF</obj_property>
+      <obj_property name="ObjectShortName">clk_IBUF</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/counter_up_down/clk_IBUF_BUFG" type="logic">
+      <obj_property name="ElementShortName">clk_IBUF_BUFG</obj_property>
+      <obj_property name="ObjectShortName">clk_IBUF_BUFG</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/counter_up_down/enable_IBUF" type="logic">
+      <obj_property name="ElementShortName">enable_IBUF</obj_property>
+      <obj_property name="ObjectShortName">enable_IBUF</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/counter_up_down/out_OBUF" type="array">
+      <obj_property name="ElementShortName">out_OBUF[3:0]</obj_property>
+      <obj_property name="ObjectShortName">out_OBUF[3:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/counter_up_down/\out[0]_i_1_n_0 " type="logic">
+      <obj_property name="ElementShortName">\out[0]_i_1_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\out[0]_i_1_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/counter_up_down/\out[1]_i_1_n_0 " type="logic">
+      <obj_property name="ElementShortName">\out[1]_i_1_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\out[1]_i_1_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/counter_up_down/\out[2]_i_1_n_0 " type="logic">
+      <obj_property name="ElementShortName">\out[2]_i_1_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\out[2]_i_1_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/counter_up_down/\out[3]_i_1_n_0 " type="logic">
+      <obj_property name="ElementShortName">\out[3]_i_1_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\out[3]_i_1_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/counter_up_down/\out[3]_i_2_n_0 " type="logic">
+      <obj_property name="ElementShortName">\out[3]_i_2_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\out[3]_i_2_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/counter_up_down/\out[3]_i_3_n_0 " type="logic">
+      <obj_property name="ElementShortName">\out[3]_i_3_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\out[3]_i_3_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/counter_up_down/up_downBar_IBUF" type="logic">
+      <obj_property name="ElementShortName">up_downBar_IBUF</obj_property>
+      <obj_property name="ObjectShortName">up_downBar_IBUF</obj_property>
+   </wvobject>
+</wave_config>

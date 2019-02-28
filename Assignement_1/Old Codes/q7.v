@@ -9,7 +9,6 @@ module registerunit(
     );
     
     reg[7:0] a,b; 
-    reg[7:0] temp;
     assign io_bus = output_control?b:8'bZZZZZZZZ;
     always @(posedge clk, negedge reset)
     begin

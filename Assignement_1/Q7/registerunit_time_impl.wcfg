@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="registerunit_time_impl.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="registerunit" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="121745454546fs"></ZoomEndTime>
+      <Cursor1Time time="120000000000fs"></Cursor1Time>
+   </zoom_setting>
+   <WVObjectSize size="66" />
+   <wvobject db_ref_id="1" fp_name="/registerunit/io_bus" type="array">
+      <obj_property name="ElementShortName">io_bus[7:0]</obj_property>
+      <obj_property name="ObjectShortName">io_bus[7:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/registerunit/mode_input" type="array">
+      <obj_property name="ElementShortName">mode_input[2:0]</obj_property>
+      <obj_property name="ObjectShortName">mode_input[2:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/registerunit/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/registerunit/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/registerunit/output_control" type="logic">
+      <obj_property name="ElementShortName">output_control</obj_property>
+      <obj_property name="ObjectShortName">output_control</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/registerunit/a" type="array">
+      <obj_property name="ElementShortName">a[7:0]</obj_property>
+      <obj_property name="ObjectShortName">a[7:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/registerunit/b" type="array">
+      <obj_property name="ElementShortName">b[7:0]</obj_property>
+      <obj_property name="ObjectShortName">b[7:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/registerunit/io_bus_IBUF" type="array">
+      <obj_property name="ElementShortName">io_bus_IBUF[7:0]</obj_property>
+      <obj_property name="ObjectShortName">io_bus_IBUF[7:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/registerunit/io_bus_OBUF" type="array">
+      <obj_property name="ElementShortName">io_bus_OBUF[7:0]</obj_property>
+      <obj_property name="ObjectShortName">io_bus_OBUF[7:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/registerunit/mode_input_IBUF" type="array">
+      <obj_property name="ElementShortName">mode_input_IBUF[2:0]</obj_property>
+      <obj_property name="ObjectShortName">mode_input_IBUF[2:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/registerunit/\a[0]_i_2_n_0 " type="logic">
+      <obj_property name="ElementShortName">\a[0]_i_2_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\a[0]_i_2_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/registerunit/\a[0]_i_3_n_0 " type="logic">
+      <obj_property name="ElementShortName">\a[0]_i_3_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\a[0]_i_3_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/registerunit/\a[1]_i_2_n_0 " type="logic">
+      <obj_property name="ElementShortName">\a[1]_i_2_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\a[1]_i_2_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/registerunit/\a[1]_i_3_n_0 " type="logic">
+      <obj_property name="ElementShortName">\a[1]_i_3_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\a[1]_i_3_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/registerunit/\a[2]_i_2_n_0 " type="logic">
+      <obj_property name="ElementShortName">\a[2]_i_2_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\a[2]_i_2_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/registerunit/\a[2]_i_3_n_0 " type="logic">
+      <obj_property name="ElementShortName">\a[2]_i_3_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\a[2]_i_3_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/registerunit/\a[2]_i_4_n_0 " type="logic">
+      <obj_property name="ElementShortName">\a[2]_i_4_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\a[2]_i_4_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/registerunit/\a[3]_i_2_n_0 " type="logic">
+      <obj_property name="ElementShortName">\a[3]_i_2_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\a[3]_i_2_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/registerunit/\a[3]_i_3_n_0 " type="logic">
+      <obj_property name="ElementShortName">\a[3]_i_3_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\a[3]_i_3_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/registerunit/\a[3]_i_4_n_0 " type="logic">
+      <obj_property name="ElementShortName">\a[3]_i_4_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\a[3]_i_4_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/registerunit/\a[4]_i_2_n_0 " type="logic">
+      <obj_property name="ElementShortName">\a[4]_i_2_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\a[4]_i_2_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/registerunit/\a[4]_i_3_n_0 " type="logic">
+      <obj_property name="ElementShortName">\a[4]_i_3_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\a[4]_i_3_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/registerunit/\a[4]_i_4_n_0 " type="logic">
+      <obj_property name="ElementShortName">\a[4]_i_4_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\a[4]_i_4_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/registerunit/\a[4]_i_5_n_0 " type="logic">
+      <obj_property name="ElementShortName">\a[4]_i_5_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\a[4]_i_5_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/registerunit/\a[5]_i_2_n_0 " type="logic">
+      <obj_property name="ElementShortName">\a[5]_i_2_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\a[5]_i_2_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/registerunit/\a[5]_i_3_n_0 " type="logic">
+      <obj_property name="ElementShortName">\a[5]_i_3_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\a[5]_i_3_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/registerunit/\a[5]_i_4_n_0 " type="logic">
+      <obj_property name="ElementShortName">\a[5]_i_4_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\a[5]_i_4_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/registerunit/\a[5]_i_5_n_0 " type="logic">
+      <obj_property name="ElementShortName">\a[5]_i_5_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\a[5]_i_5_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/registerunit/\a[6]_i_2_n_0 " type="logic">
+      <obj_property name="ElementShortName">\a[6]_i_2_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\a[6]_i_2_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/registerunit/\a[6]_i_3_n_0 " type="logic">
+      <obj_property name="ElementShortName">\a[6]_i_3_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\a[6]_i_3_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/registerunit/\a[6]_i_4_n_0 " type="logic">
+      <obj_property name="ElementShortName">\a[6]_i_4_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\a[6]_i_4_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/registerunit/\a[6]_i_5_n_0 " type="logic">
+      <obj_property name="ElementShortName">\a[6]_i_5_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\a[6]_i_5_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/registerunit/\a[6]_i_6_n_0 " type="logic">
+      <obj_property name="ElementShortName">\a[6]_i_6_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\a[6]_i_6_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/registerunit/\a[6]_i_7_n_0 " type="logic">
+      <obj_property name="ElementShortName">\a[6]_i_7_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\a[6]_i_7_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/registerunit/\a[7]_i_1_n_0 " type="logic">
+      <obj_property name="ElementShortName">\a[7]_i_1_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\a[7]_i_1_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/registerunit/\a[7]_i_3_n_0 " type="logic">
+      <obj_property name="ElementShortName">\a[7]_i_3_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\a[7]_i_3_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/registerunit/\a[7]_i_4_n_0 " type="logic">
+      <obj_property name="ElementShortName">\a[7]_i_4_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\a[7]_i_4_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/registerunit/\a[7]_i_5_n_0 " type="logic">
+      <obj_property name="ElementShortName">\a[7]_i_5_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\a[7]_i_5_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/registerunit/\a[7]_i_6_n_0 " type="logic">
+      <obj_property name="ElementShortName">\a[7]_i_6_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\a[7]_i_6_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/registerunit/\a[7]_i_7_n_0 " type="logic">
+      <obj_property name="ElementShortName">\a[7]_i_7_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\a[7]_i_7_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/registerunit/\a[7]_i_8_n_0 " type="logic">
+      <obj_property name="ElementShortName">\a[7]_i_8_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\a[7]_i_8_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/registerunit/\b[0]_i_2_n_0 " type="logic">
+      <obj_property name="ElementShortName">\b[0]_i_2_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\b[0]_i_2_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/registerunit/\b[0]_i_3_n_0 " type="logic">
+      <obj_property name="ElementShortName">\b[0]_i_3_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\b[0]_i_3_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/registerunit/\b[1]_i_2_n_0 " type="logic">
+      <obj_property name="ElementShortName">\b[1]_i_2_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\b[1]_i_2_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/registerunit/\b[1]_i_3_n_0 " type="logic">
+      <obj_property name="ElementShortName">\b[1]_i_3_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\b[1]_i_3_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/registerunit/\b[2]_i_2_n_0 " type="logic">
+      <obj_property name="ElementShortName">\b[2]_i_2_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\b[2]_i_2_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/registerunit/\b[2]_i_3_n_0 " type="logic">
+      <obj_property name="ElementShortName">\b[2]_i_3_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\b[2]_i_3_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/registerunit/\b[2]_i_4_n_0 " type="logic">
+      <obj_property name="ElementShortName">\b[2]_i_4_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\b[2]_i_4_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/registerunit/\b[3]_i_2_n_0 " type="logic">
+      <obj_property name="ElementShortName">\b[3]_i_2_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\b[3]_i_2_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/registerunit/\b[3]_i_3_n_0 " type="logic">
+      <obj_property name="ElementShortName">\b[3]_i_3_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\b[3]_i_3_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/registerunit/\b[4]_i_2_n_0 " type="logic">
+      <obj_property name="ElementShortName">\b[4]_i_2_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\b[4]_i_2_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/registerunit/\b[4]_i_3_n_0 " type="logic">
+      <obj_property name="ElementShortName">\b[4]_i_3_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\b[4]_i_3_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/registerunit/\b[4]_i_4_n_0 " type="logic">
+      <obj_property name="ElementShortName">\b[4]_i_4_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\b[4]_i_4_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/registerunit/\b[5]_i_2_n_0 " type="logic">
+      <obj_property name="ElementShortName">\b[5]_i_2_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\b[5]_i_2_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/registerunit/\b[5]_i_3_n_0 " type="logic">
+      <obj_property name="ElementShortName">\b[5]_i_3_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\b[5]_i_3_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/registerunit/\b[5]_i_4_n_0 " type="logic">
+      <obj_property name="ElementShortName">\b[5]_i_4_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\b[5]_i_4_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/registerunit/\b[6]_i_2_n_0 " type="logic">
+      <obj_property name="ElementShortName">\b[6]_i_2_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\b[6]_i_2_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/registerunit/\b[6]_i_3_n_0 " type="logic">
+      <obj_property name="ElementShortName">\b[6]_i_3_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\b[6]_i_3_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/registerunit/\b[7]_i_2_n_0 " type="logic">
+      <obj_property name="ElementShortName">\b[7]_i_2_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\b[7]_i_2_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/registerunit/\b[7]_i_3_n_0 " type="logic">
+      <obj_property name="ElementShortName">\b[7]_i_3_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\b[7]_i_3_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/registerunit/clk_IBUF" type="logic">
+      <obj_property name="ElementShortName">clk_IBUF</obj_property>
+      <obj_property name="ObjectShortName">clk_IBUF</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/registerunit/clk_IBUF_BUFG" type="logic">
+      <obj_property name="ElementShortName">clk_IBUF_BUFG</obj_property>
+      <obj_property name="ObjectShortName">clk_IBUF_BUFG</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/registerunit/data1" type="array">
+      <obj_property name="ElementShortName">data1[7:0]</obj_property>
+      <obj_property name="ObjectShortName">data1[7:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/registerunit/\io_bus_TRI[0] " type="logic">
+      <obj_property name="ElementShortName">\io_bus_TRI[0] </obj_property>
+      <obj_property name="ObjectShortName">\io_bus_TRI[0] </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/registerunit/output_control_IBUF" type="logic">
+      <obj_property name="ElementShortName">output_control_IBUF</obj_property>
+      <obj_property name="ObjectShortName">output_control_IBUF</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/registerunit/reset_IBUF" type="logic">
+      <obj_property name="ElementShortName">reset_IBUF</obj_property>
+      <obj_property name="ObjectShortName">reset_IBUF</obj_property>
+   </wvobject>
+</wave_config>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="barrelshifter_func_impl.wdb" id="1">
+         <top_modules>
+            <top_module name="barrelshifter" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="25653310105fs"></ZoomEndTime>
+      <Cursor1Time time="31000000000fs"></Cursor1Time>
+   </zoom_setting>
+   <WVObjectSize size="14" />
+   <wvobject db_ref_id="1" fp_name="/barrelshifter/data_in" type="array">
+      <obj_property name="ElementShortName">data_in[7:0]</obj_property>
+      <obj_property name="ObjectShortName">data_in[7:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/barrelshifter/data_out" type="array">
+      <obj_property name="ElementShortName">data_out[7:0]</obj_property>
+      <obj_property name="ObjectShortName">data_out[7:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/barrelshifter/shift" type="array">
+      <obj_property name="ElementShortName">shift[2:0]</obj_property>
+      <obj_property name="ObjectShortName">shift[2:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/barrelshifter/data_out_OBUF" type="array">
+      <obj_property name="ElementShortName">data_out_OBUF[7:0]</obj_property>
+      <obj_property name="ObjectShortName">data_out_OBUF[7:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/barrelshifter/data_in_IBUF" type="array">
+      <obj_property name="ElementShortName">data_in_IBUF[7:0]</obj_property>
+      <obj_property name="ObjectShortName">data_in_IBUF[7:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/barrelshifter/\data_out_OBUF[4]_inst_i_2_n_0 " type="logic">
+      <obj_property name="ElementShortName">\data_out_OBUF[4]_inst_i_2_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\data_out_OBUF[4]_inst_i_2_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/barrelshifter/\data_out_OBUF[4]_inst_i_3_n_0 " type="logic">
+      <obj_property name="ElementShortName">\data_out_OBUF[4]_inst_i_3_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\data_out_OBUF[4]_inst_i_3_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/barrelshifter/\data_out_OBUF[5]_inst_i_2_n_0 " type="logic">
+      <obj_property name="ElementShortName">\data_out_OBUF[5]_inst_i_2_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\data_out_OBUF[5]_inst_i_2_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/barrelshifter/\data_out_OBUF[5]_inst_i_3_n_0 " type="logic">
+      <obj_property name="ElementShortName">\data_out_OBUF[5]_inst_i_3_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\data_out_OBUF[5]_inst_i_3_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/barrelshifter/\data_out_OBUF[6]_inst_i_2_n_0 " type="logic">
+      <obj_property name="ElementShortName">\data_out_OBUF[6]_inst_i_2_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\data_out_OBUF[6]_inst_i_2_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/barrelshifter/\data_out_OBUF[6]_inst_i_3_n_0 " type="logic">
+      <obj_property name="ElementShortName">\data_out_OBUF[6]_inst_i_3_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\data_out_OBUF[6]_inst_i_3_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/barrelshifter/\data_out_OBUF[7]_inst_i_2_n_0 " type="logic">
+      <obj_property name="ElementShortName">\data_out_OBUF[7]_inst_i_2_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\data_out_OBUF[7]_inst_i_2_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/barrelshifter/\data_out_OBUF[7]_inst_i_3_n_0 " type="logic">
+      <obj_property name="ElementShortName">\data_out_OBUF[7]_inst_i_3_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\data_out_OBUF[7]_inst_i_3_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/barrelshifter/shift_IBUF" type="array">
+      <obj_property name="ElementShortName">shift_IBUF[2:0]</obj_property>
+      <obj_property name="ObjectShortName">shift_IBUF[2:0]</obj_property>
+   </wvobject>
+</wave_config>
