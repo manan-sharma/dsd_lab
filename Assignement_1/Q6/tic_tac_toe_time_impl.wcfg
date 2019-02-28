@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tic_tac_toe_time_impl.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tic_tac_toe" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="41000000000fs"></ZoomEndTime>
+      <Cursor1Time time="40954796000fs"></Cursor1Time>
+   </zoom_setting>
+   <WVObjectSize size="49" />
+   <wvobject db_ref_id="1" type="logic" fp_name="/tic_tac_toe/out_OBUF">
+      <obj_property name="ElementShortName">out_OBUF</obj_property>
+      <obj_property name="ObjectShortName">out_OBUF</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/tic_tac_toe/v11_IBUF">
+      <obj_property name="ElementShortName">v11_IBUF[1:0]</obj_property>
+      <obj_property name="ObjectShortName">v11_IBUF[1:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/tic_tac_toe/v12_IBUF">
+      <obj_property name="ElementShortName">v12_IBUF[1:0]</obj_property>
+      <obj_property name="ObjectShortName">v12_IBUF[1:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/tic_tac_toe/v13_IBUF">
+      <obj_property name="ElementShortName">v13_IBUF[1:0]</obj_property>
+      <obj_property name="ObjectShortName">v13_IBUF[1:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/tic_tac_toe/v21_IBUF">
+      <obj_property name="ElementShortName">v21_IBUF[1:0]</obj_property>
+      <obj_property name="ObjectShortName">v21_IBUF[1:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/tic_tac_toe/v22_IBUF">
+      <obj_property name="ElementShortName">v22_IBUF[1:0]</obj_property>
+      <obj_property name="ObjectShortName">v22_IBUF[1:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/tic_tac_toe/v23_IBUF">
+      <obj_property name="ElementShortName">v23_IBUF[1:0]</obj_property>
+      <obj_property name="ObjectShortName">v23_IBUF[1:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/tic_tac_toe/v31_IBUF">
+      <obj_property name="ElementShortName">v31_IBUF[1:0]</obj_property>
+      <obj_property name="ObjectShortName">v31_IBUF[1:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/tic_tac_toe/v32_IBUF">
+      <obj_property name="ElementShortName">v32_IBUF[1:0]</obj_property>
+      <obj_property name="ObjectShortName">v32_IBUF[1:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/tic_tac_toe/v33_IBUF">
+      <obj_property name="ElementShortName">v33_IBUF[1:0]</obj_property>
+      <obj_property name="ObjectShortName">v33_IBUF[1:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/tic_tac_toe/out_OBUF_inst_i_10_n_0">
+      <obj_property name="ElementShortName">out_OBUF_inst_i_10_n_0</obj_property>
+      <obj_property name="ObjectShortName">out_OBUF_inst_i_10_n_0</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/tic_tac_toe/out_OBUF_inst_i_11_n_0">
+      <obj_property name="ElementShortName">out_OBUF_inst_i_11_n_0</obj_property>
+      <obj_property name="ObjectShortName">out_OBUF_inst_i_11_n_0</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/tic_tac_toe/out_OBUF_inst_i_12_n_0">
+      <obj_property name="ElementShortName">out_OBUF_inst_i_12_n_0</obj_property>
+      <obj_property name="ObjectShortName">out_OBUF_inst_i_12_n_0</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/tic_tac_toe/out_OBUF_inst_i_13_n_0">
+      <obj_property name="ElementShortName">out_OBUF_inst_i_13_n_0</obj_property>
+      <obj_property name="ObjectShortName">out_OBUF_inst_i_13_n_0</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/tic_tac_toe/out_OBUF_inst_i_14_n_0">
+      <obj_property name="ElementShortName">out_OBUF_inst_i_14_n_0</obj_property>
+      <obj_property name="ObjectShortName">out_OBUF_inst_i_14_n_0</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/tic_tac_toe/out_OBUF_inst_i_15_n_0">
+      <obj_property name="ElementShortName">out_OBUF_inst_i_15_n_0</obj_property>
+      <obj_property name="ObjectShortName">out_OBUF_inst_i_15_n_0</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/tic_tac_toe/out_OBUF_inst_i_16_n_0">
+      <obj_property name="ElementShortName">out_OBUF_inst_i_16_n_0</obj_property>
+      <obj_property name="ObjectShortName">out_OBUF_inst_i_16_n_0</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/tic_tac_toe/out_OBUF_inst_i_17_n_0">
+      <obj_property name="ElementShortName">out_OBUF_inst_i_17_n_0</obj_property>
+      <obj_property name="ObjectShortName">out_OBUF_inst_i_17_n_0</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/tic_tac_toe/out_OBUF_inst_i_18_n_0">
+      <obj_property name="ElementShortName">out_OBUF_inst_i_18_n_0</obj_property>
+      <obj_property name="ObjectShortName">out_OBUF_inst_i_18_n_0</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/tic_tac_toe/out_OBUF_inst_i_19_n_0">
+      <obj_property name="ElementShortName">out_OBUF_inst_i_19_n_0</obj_property>
+      <obj_property name="ObjectShortName">out_OBUF_inst_i_19_n_0</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/tic_tac_toe/out_OBUF_inst_i_20_n_0">
+      <obj_property name="ElementShortName">out_OBUF_inst_i_20_n_0</obj_property>
+      <obj_property name="ObjectShortName">out_OBUF_inst_i_20_n_0</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/tic_tac_toe/out_OBUF_inst_i_21_n_0">
+      <obj_property name="ElementShortName">out_OBUF_inst_i_21_n_0</obj_property>
+      <obj_property name="ObjectShortName">out_OBUF_inst_i_21_n_0</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/tic_tac_toe/out_OBUF_inst_i_22_n_0">
+      <obj_property name="ElementShortName">out_OBUF_inst_i_22_n_0</obj_property>
+      <obj_property name="ObjectShortName">out_OBUF_inst_i_22_n_0</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/tic_tac_toe/out_OBUF_inst_i_23_n_0">
+      <obj_property name="ElementShortName">out_OBUF_inst_i_23_n_0</obj_property>
+      <obj_property name="ObjectShortName">out_OBUF_inst_i_23_n_0</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/tic_tac_toe/out_OBUF_inst_i_24_n_0">
+      <obj_property name="ElementShortName">out_OBUF_inst_i_24_n_0</obj_property>
+      <obj_property name="ObjectShortName">out_OBUF_inst_i_24_n_0</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/tic_tac_toe/out_OBUF_inst_i_25_n_0">
+      <obj_property name="ElementShortName">out_OBUF_inst_i_25_n_0</obj_property>
+      <obj_property name="ObjectShortName">out_OBUF_inst_i_25_n_0</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/tic_tac_toe/out_OBUF_inst_i_26_n_0">
+      <obj_property name="ElementShortName">out_OBUF_inst_i_26_n_0</obj_property>
+      <obj_property name="ObjectShortName">out_OBUF_inst_i_26_n_0</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/tic_tac_toe/out_OBUF_inst_i_27_n_0">
+      <obj_property name="ElementShortName">out_OBUF_inst_i_27_n_0</obj_property>
+      <obj_property name="ObjectShortName">out_OBUF_inst_i_27_n_0</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/tic_tac_toe/out_OBUF_inst_i_28_n_0">
+      <obj_property name="ElementShortName">out_OBUF_inst_i_28_n_0</obj_property>
+      <obj_property name="ObjectShortName">out_OBUF_inst_i_28_n_0</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/tic_tac_toe/out_OBUF_inst_i_2_n_0">
+      <obj_property name="ElementShortName">out_OBUF_inst_i_2_n_0</obj_property>
+      <obj_property name="ObjectShortName">out_OBUF_inst_i_2_n_0</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/tic_tac_toe/out_OBUF_inst_i_3_n_0">
+      <obj_property name="ElementShortName">out_OBUF_inst_i_3_n_0</obj_property>
+      <obj_property name="ObjectShortName">out_OBUF_inst_i_3_n_0</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/tic_tac_toe/out_OBUF_inst_i_4_n_0">
+      <obj_property name="ElementShortName">out_OBUF_inst_i_4_n_0</obj_property>
+      <obj_property name="ObjectShortName">out_OBUF_inst_i_4_n_0</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/tic_tac_toe/out_OBUF_inst_i_5_n_0">
+      <obj_property name="ElementShortName">out_OBUF_inst_i_5_n_0</obj_property>
+      <obj_property name="ObjectShortName">out_OBUF_inst_i_5_n_0</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/tic_tac_toe/out_OBUF_inst_i_6_n_0">
+      <obj_property name="ElementShortName">out_OBUF_inst_i_6_n_0</obj_property>
+      <obj_property name="ObjectShortName">out_OBUF_inst_i_6_n_0</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/tic_tac_toe/out_OBUF_inst_i_7_n_0">
+      <obj_property name="ElementShortName">out_OBUF_inst_i_7_n_0</obj_property>
+      <obj_property name="ObjectShortName">out_OBUF_inst_i_7_n_0</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/tic_tac_toe/out_OBUF_inst_i_8_n_0">
+      <obj_property name="ElementShortName">out_OBUF_inst_i_8_n_0</obj_property>
+      <obj_property name="ObjectShortName">out_OBUF_inst_i_8_n_0</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/tic_tac_toe/out_OBUF_inst_i_9_n_0">
+      <obj_property name="ElementShortName">out_OBUF_inst_i_9_n_0</obj_property>
+      <obj_property name="ObjectShortName">out_OBUF_inst_i_9_n_0</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/tic_tac_toe/turn_IBUF">
+      <obj_property name="ElementShortName">turn_IBUF</obj_property>
+      <obj_property name="ObjectShortName">turn_IBUF</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/tic_tac_toe/turn">
+      <obj_property name="ElementShortName">turn</obj_property>
+      <obj_property name="ObjectShortName">turn</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/tic_tac_toe/out">
+      <obj_property name="ElementShortName">out</obj_property>
+      <obj_property name="ObjectShortName">out</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/tic_tac_toe/v11">
+      <obj_property name="ElementShortName">v11[1:0]</obj_property>
+      <obj_property name="ObjectShortName">v11[1:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/tic_tac_toe/v12">
+      <obj_property name="ElementShortName">v12[1:0]</obj_property>
+      <obj_property name="ObjectShortName">v12[1:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/tic_tac_toe/v13">
+      <obj_property name="ElementShortName">v13[1:0]</obj_property>
+      <obj_property name="ObjectShortName">v13[1:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/tic_tac_toe/v21">
+      <obj_property name="ElementShortName">v21[1:0]</obj_property>
+      <obj_property name="ObjectShortName">v21[1:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/tic_tac_toe/v22">
+      <obj_property name="ElementShortName">v22[1:0]</obj_property>
+      <obj_property name="ObjectShortName">v22[1:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/tic_tac_toe/v23">
+      <obj_property name="ElementShortName">v23[1:0]</obj_property>
+      <obj_property name="ObjectShortName">v23[1:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/tic_tac_toe/v31">
+      <obj_property name="ElementShortName">v31[1:0]</obj_property>
+      <obj_property name="ObjectShortName">v31[1:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/tic_tac_toe/v32">
+      <obj_property name="ElementShortName">v32[1:0]</obj_property>
+      <obj_property name="ObjectShortName">v32[1:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/tic_tac_toe/v33">
+      <obj_property name="ElementShortName">v33[1:0]</obj_property>
+      <obj_property name="ObjectShortName">v33[1:0]</obj_property>
+   </wvobject>
+</wave_config>

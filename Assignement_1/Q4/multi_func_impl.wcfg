@@ -1,0 +1,403 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="multi_func_impl.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="multi" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="91000000001fs"></ZoomEndTime>
+      <Cursor1Time time="90896237000fs"></Cursor1Time>
+   </zoom_setting>
+   <WVObjectSize size="96" />
+   <wvobject db_ref_id="1" type="array" fp_name="/multi/temp_reg">
+      <obj_property name="ElementShortName">temp_reg[15:0]</obj_property>
+      <obj_property name="ObjectShortName">temp_reg[15:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/multi/A">
+      <obj_property name="ElementShortName">A[7:0]</obj_property>
+      <obj_property name="ObjectShortName">A[7:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/multi/A_IBUF">
+      <obj_property name="ElementShortName">A_IBUF[7:0]</obj_property>
+      <obj_property name="ObjectShortName">A_IBUF[7:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/multi/B">
+      <obj_property name="ElementShortName">B[7:0]</obj_property>
+      <obj_property name="ObjectShortName">B[7:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/multi/B_IBUF">
+      <obj_property name="ElementShortName">B_IBUF[7:0]</obj_property>
+      <obj_property name="ObjectShortName">B_IBUF[7:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/multi/clk">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/multi/\buff[4]_i_2_n_0 ">
+      <obj_property name="ElementShortName">\buff[4]_i_2_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\buff[4]_i_2_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/multi/\buff[7]_i_1_n_0 ">
+      <obj_property name="ElementShortName">\buff[7]_i_1_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\buff[7]_i_1_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/multi/\buff[7]_i_3_n_0 ">
+      <obj_property name="ElementShortName">\buff[7]_i_3_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\buff[7]_i_3_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/multi/\buff[7]_i_4_n_0 ">
+      <obj_property name="ElementShortName">\buff[7]_i_4_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\buff[7]_i_4_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/multi/\buff_reg_n_0_[0] ">
+      <obj_property name="ElementShortName">\buff_reg_n_0_[0] </obj_property>
+      <obj_property name="ObjectShortName">\buff_reg_n_0_[0] </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/multi/\buff_reg_n_0_[1] ">
+      <obj_property name="ElementShortName">\buff_reg_n_0_[1] </obj_property>
+      <obj_property name="ObjectShortName">\buff_reg_n_0_[1] </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/multi/\buff_reg_n_0_[2] ">
+      <obj_property name="ElementShortName">\buff_reg_n_0_[2] </obj_property>
+      <obj_property name="ObjectShortName">\buff_reg_n_0_[2] </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/multi/\buff_reg_n_0_[3] ">
+      <obj_property name="ElementShortName">\buff_reg_n_0_[3] </obj_property>
+      <obj_property name="ObjectShortName">\buff_reg_n_0_[3] </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/multi/\buff_reg_n_0_[4] ">
+      <obj_property name="ElementShortName">\buff_reg_n_0_[4] </obj_property>
+      <obj_property name="ObjectShortName">\buff_reg_n_0_[4] </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/multi/\buff_reg_n_0_[5] ">
+      <obj_property name="ElementShortName">\buff_reg_n_0_[5] </obj_property>
+      <obj_property name="ObjectShortName">\buff_reg_n_0_[5] </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/multi/\buff_reg_n_0_[6] ">
+      <obj_property name="ElementShortName">\buff_reg_n_0_[6] </obj_property>
+      <obj_property name="ObjectShortName">\buff_reg_n_0_[6] </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/multi/\buff_reg_n_0_[7] ">
+      <obj_property name="ElementShortName">\buff_reg_n_0_[7] </obj_property>
+      <obj_property name="ObjectShortName">\buff_reg_n_0_[7] </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/multi/clearBar">
+      <obj_property name="ElementShortName">clearBar</obj_property>
+      <obj_property name="ObjectShortName">clearBar</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/multi/clearBar_IBUF">
+      <obj_property name="ElementShortName">clearBar_IBUF</obj_property>
+      <obj_property name="ObjectShortName">clearBar_IBUF</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/multi/clk_IBUF">
+      <obj_property name="ElementShortName">clk_IBUF</obj_property>
+      <obj_property name="ObjectShortName">clk_IBUF</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/multi/clk_IBUF_BUFG">
+      <obj_property name="ElementShortName">clk_IBUF_BUFG</obj_property>
+      <obj_property name="ObjectShortName">clk_IBUF_BUFG</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/multi/done">
+      <obj_property name="ElementShortName">done</obj_property>
+      <obj_property name="ObjectShortName">done</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/multi/done1_out">
+      <obj_property name="ElementShortName">done1_out</obj_property>
+      <obj_property name="ObjectShortName">done1_out</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/multi/done_OBUF">
+      <obj_property name="ElementShortName">done_OBUF</obj_property>
+      <obj_property name="ObjectShortName">done_OBUF</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/multi/done_i_1_n_0">
+      <obj_property name="ElementShortName">done_i_1_n_0</obj_property>
+      <obj_property name="ObjectShortName">done_i_1_n_0</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/multi/input_start">
+      <obj_property name="ElementShortName">input_start</obj_property>
+      <obj_property name="ObjectShortName">input_start</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/multi/input_start_IBUF">
+      <obj_property name="ElementShortName">input_start_IBUF</obj_property>
+      <obj_property name="ObjectShortName">input_start_IBUF</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/multi/out">
+      <obj_property name="ElementShortName">out[15:0]</obj_property>
+      <obj_property name="ObjectShortName">out[15:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/multi/\out[15]_i_1_n_0 ">
+      <obj_property name="ElementShortName">\out[15]_i_1_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\out[15]_i_1_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/multi/\out[15]_i_8_n_0 ">
+      <obj_property name="ElementShortName">\out[15]_i_8_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\out[15]_i_8_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/multi/\out[3]_i_2_n_0 ">
+      <obj_property name="ElementShortName">\out[3]_i_2_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\out[3]_i_2_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/multi/\out[3]_i_3_n_0 ">
+      <obj_property name="ElementShortName">\out[3]_i_3_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\out[3]_i_3_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/multi/\out[3]_i_4_n_0 ">
+      <obj_property name="ElementShortName">\out[3]_i_4_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\out[3]_i_4_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/multi/\out[3]_i_5_n_0 ">
+      <obj_property name="ElementShortName">\out[3]_i_5_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\out[3]_i_5_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/multi/\out[7]_i_2_n_0 ">
+      <obj_property name="ElementShortName">\out[7]_i_2_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\out[7]_i_2_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/multi/\out[7]_i_3_n_0 ">
+      <obj_property name="ElementShortName">\out[7]_i_3_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\out[7]_i_3_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/multi/\out[7]_i_4_n_0 ">
+      <obj_property name="ElementShortName">\out[7]_i_4_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\out[7]_i_4_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/multi/\out[7]_i_5_n_0 ">
+      <obj_property name="ElementShortName">\out[7]_i_5_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\out[7]_i_5_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/multi/out_OBUF">
+      <obj_property name="ElementShortName">out_OBUF[15:0]</obj_property>
+      <obj_property name="ObjectShortName">out_OBUF[15:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/multi/\out_reg[11]_i_1_n_0 ">
+      <obj_property name="ElementShortName">\out_reg[11]_i_1_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\out_reg[11]_i_1_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/multi/\out_reg[3]_i_1_n_0 ">
+      <obj_property name="ElementShortName">\out_reg[3]_i_1_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\out_reg[3]_i_1_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/multi/\out_reg[7]_i_1_n_0 ">
+      <obj_property name="ElementShortName">\out_reg[7]_i_1_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\out_reg[7]_i_1_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/multi/p_0_in">
+      <obj_property name="ElementShortName">p_0_in[7:0]</obj_property>
+      <obj_property name="ObjectShortName">p_0_in[7:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/multi/temp">
+      <obj_property name="ElementShortName">temp[15:0]</obj_property>
+      <obj_property name="ObjectShortName">temp[15:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/multi/\temp[0]_i_2_n_0 ">
+      <obj_property name="ElementShortName">\temp[0]_i_2_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\temp[0]_i_2_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/multi/\temp[0]_i_3_n_0 ">
+      <obj_property name="ElementShortName">\temp[0]_i_3_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\temp[0]_i_3_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/multi/\temp[0]_i_4_n_0 ">
+      <obj_property name="ElementShortName">\temp[0]_i_4_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\temp[0]_i_4_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/multi/\temp[0]_i_5_n_0 ">
+      <obj_property name="ElementShortName">\temp[0]_i_5_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\temp[0]_i_5_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/multi/\temp[0]_i_6_n_0 ">
+      <obj_property name="ElementShortName">\temp[0]_i_6_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\temp[0]_i_6_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/multi/\temp[0]_i_7_n_0 ">
+      <obj_property name="ElementShortName">\temp[0]_i_7_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\temp[0]_i_7_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/multi/\temp[0]_i_8_n_0 ">
+      <obj_property name="ElementShortName">\temp[0]_i_8_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\temp[0]_i_8_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/multi/\temp[0]_i_9_n_0 ">
+      <obj_property name="ElementShortName">\temp[0]_i_9_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\temp[0]_i_9_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/multi/\temp[12]_i_2_n_0 ">
+      <obj_property name="ElementShortName">\temp[12]_i_2_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\temp[12]_i_2_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/multi/\temp[12]_i_3_n_0 ">
+      <obj_property name="ElementShortName">\temp[12]_i_3_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\temp[12]_i_3_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/multi/\temp[12]_i_4_n_0 ">
+      <obj_property name="ElementShortName">\temp[12]_i_4_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\temp[12]_i_4_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/multi/\temp[12]_i_5_n_0 ">
+      <obj_property name="ElementShortName">\temp[12]_i_5_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\temp[12]_i_5_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/multi/\temp[4]_i_2_n_0 ">
+      <obj_property name="ElementShortName">\temp[4]_i_2_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\temp[4]_i_2_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/multi/\temp[4]_i_3_n_0 ">
+      <obj_property name="ElementShortName">\temp[4]_i_3_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\temp[4]_i_3_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/multi/\temp[4]_i_4_n_0 ">
+      <obj_property name="ElementShortName">\temp[4]_i_4_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\temp[4]_i_4_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/multi/\temp[4]_i_5_n_0 ">
+      <obj_property name="ElementShortName">\temp[4]_i_5_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\temp[4]_i_5_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/multi/\temp[4]_i_6_n_0 ">
+      <obj_property name="ElementShortName">\temp[4]_i_6_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\temp[4]_i_6_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/multi/\temp[4]_i_7_n_0 ">
+      <obj_property name="ElementShortName">\temp[4]_i_7_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\temp[4]_i_7_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/multi/\temp[4]_i_8_n_0 ">
+      <obj_property name="ElementShortName">\temp[4]_i_8_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\temp[4]_i_8_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/multi/\temp[4]_i_9_n_0 ">
+      <obj_property name="ElementShortName">\temp[4]_i_9_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\temp[4]_i_9_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/multi/\temp[8]_i_2_n_0 ">
+      <obj_property name="ElementShortName">\temp[8]_i_2_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\temp[8]_i_2_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/multi/\temp[8]_i_3_n_0 ">
+      <obj_property name="ElementShortName">\temp[8]_i_3_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\temp[8]_i_3_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/multi/\temp[8]_i_4_n_0 ">
+      <obj_property name="ElementShortName">\temp[8]_i_4_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\temp[8]_i_4_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/multi/\temp[8]_i_5_n_0 ">
+      <obj_property name="ElementShortName">\temp[8]_i_5_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\temp[8]_i_5_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/multi/\temp_reg[0]_i_1_n_0 ">
+      <obj_property name="ElementShortName">\temp_reg[0]_i_1_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\temp_reg[0]_i_1_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/multi/\temp_reg[0]_i_1_n_4 ">
+      <obj_property name="ElementShortName">\temp_reg[0]_i_1_n_4 </obj_property>
+      <obj_property name="ObjectShortName">\temp_reg[0]_i_1_n_4 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/multi/\temp_reg[0]_i_1_n_5 ">
+      <obj_property name="ElementShortName">\temp_reg[0]_i_1_n_5 </obj_property>
+      <obj_property name="ObjectShortName">\temp_reg[0]_i_1_n_5 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/multi/\temp_reg[0]_i_1_n_6 ">
+      <obj_property name="ElementShortName">\temp_reg[0]_i_1_n_6 </obj_property>
+      <obj_property name="ObjectShortName">\temp_reg[0]_i_1_n_6 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/multi/\temp_reg[0]_i_1_n_7 ">
+      <obj_property name="ElementShortName">\temp_reg[0]_i_1_n_7 </obj_property>
+      <obj_property name="ObjectShortName">\temp_reg[0]_i_1_n_7 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/multi/\temp_reg[12]_i_1_n_4 ">
+      <obj_property name="ElementShortName">\temp_reg[12]_i_1_n_4 </obj_property>
+      <obj_property name="ObjectShortName">\temp_reg[12]_i_1_n_4 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/multi/\temp_reg[12]_i_1_n_5 ">
+      <obj_property name="ElementShortName">\temp_reg[12]_i_1_n_5 </obj_property>
+      <obj_property name="ObjectShortName">\temp_reg[12]_i_1_n_5 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/multi/\temp_reg[12]_i_1_n_6 ">
+      <obj_property name="ElementShortName">\temp_reg[12]_i_1_n_6 </obj_property>
+      <obj_property name="ObjectShortName">\temp_reg[12]_i_1_n_6 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/multi/\temp_reg[12]_i_1_n_7 ">
+      <obj_property name="ElementShortName">\temp_reg[12]_i_1_n_7 </obj_property>
+      <obj_property name="ObjectShortName">\temp_reg[12]_i_1_n_7 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/multi/\temp_reg[4]_i_1_n_0 ">
+      <obj_property name="ElementShortName">\temp_reg[4]_i_1_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\temp_reg[4]_i_1_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/multi/\temp_reg[4]_i_1_n_4 ">
+      <obj_property name="ElementShortName">\temp_reg[4]_i_1_n_4 </obj_property>
+      <obj_property name="ObjectShortName">\temp_reg[4]_i_1_n_4 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/multi/\temp_reg[4]_i_1_n_5 ">
+      <obj_property name="ElementShortName">\temp_reg[4]_i_1_n_5 </obj_property>
+      <obj_property name="ObjectShortName">\temp_reg[4]_i_1_n_5 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/multi/\temp_reg[4]_i_1_n_6 ">
+      <obj_property name="ElementShortName">\temp_reg[4]_i_1_n_6 </obj_property>
+      <obj_property name="ObjectShortName">\temp_reg[4]_i_1_n_6 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/multi/\temp_reg[4]_i_1_n_7 ">
+      <obj_property name="ElementShortName">\temp_reg[4]_i_1_n_7 </obj_property>
+      <obj_property name="ObjectShortName">\temp_reg[4]_i_1_n_7 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/multi/\temp_reg[8]_i_1_n_0 ">
+      <obj_property name="ElementShortName">\temp_reg[8]_i_1_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\temp_reg[8]_i_1_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/multi/\temp_reg[8]_i_1_n_4 ">
+      <obj_property name="ElementShortName">\temp_reg[8]_i_1_n_4 </obj_property>
+      <obj_property name="ObjectShortName">\temp_reg[8]_i_1_n_4 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/multi/\temp_reg[8]_i_1_n_5 ">
+      <obj_property name="ElementShortName">\temp_reg[8]_i_1_n_5 </obj_property>
+      <obj_property name="ObjectShortName">\temp_reg[8]_i_1_n_5 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/multi/\temp_reg[8]_i_1_n_6 ">
+      <obj_property name="ElementShortName">\temp_reg[8]_i_1_n_6 </obj_property>
+      <obj_property name="ObjectShortName">\temp_reg[8]_i_1_n_6 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/multi/\temp_reg[8]_i_1_n_7 ">
+      <obj_property name="ElementShortName">\temp_reg[8]_i_1_n_7 </obj_property>
+      <obj_property name="ObjectShortName">\temp_reg[8]_i_1_n_7 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/multi/\NLW_out_reg[11]_i_1_CO_UNCONNECTED ">
+      <obj_property name="ElementShortName">\NLW_out_reg[11]_i_1_CO_UNCONNECTED [2:0]</obj_property>
+      <obj_property name="ObjectShortName">\NLW_out_reg[11]_i_1_CO_UNCONNECTED [2:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/multi/\NLW_out_reg[15]_i_2_CO_UNCONNECTED ">
+      <obj_property name="ElementShortName">\NLW_out_reg[15]_i_2_CO_UNCONNECTED [3:0]</obj_property>
+      <obj_property name="ObjectShortName">\NLW_out_reg[15]_i_2_CO_UNCONNECTED [3:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/multi/\NLW_out_reg[3]_i_1_CO_UNCONNECTED ">
+      <obj_property name="ElementShortName">\NLW_out_reg[3]_i_1_CO_UNCONNECTED [2:0]</obj_property>
+      <obj_property name="ObjectShortName">\NLW_out_reg[3]_i_1_CO_UNCONNECTED [2:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/multi/\NLW_out_reg[7]_i_1_CO_UNCONNECTED ">
+      <obj_property name="ElementShortName">\NLW_out_reg[7]_i_1_CO_UNCONNECTED [2:0]</obj_property>
+      <obj_property name="ObjectShortName">\NLW_out_reg[7]_i_1_CO_UNCONNECTED [2:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/multi/\NLW_temp_reg[0]_i_1_CO_UNCONNECTED ">
+      <obj_property name="ElementShortName">\NLW_temp_reg[0]_i_1_CO_UNCONNECTED [2:0]</obj_property>
+      <obj_property name="ObjectShortName">\NLW_temp_reg[0]_i_1_CO_UNCONNECTED [2:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/multi/\NLW_temp_reg[12]_i_1_CO_UNCONNECTED ">
+      <obj_property name="ElementShortName">\NLW_temp_reg[12]_i_1_CO_UNCONNECTED [3:0]</obj_property>
+      <obj_property name="ObjectShortName">\NLW_temp_reg[12]_i_1_CO_UNCONNECTED [3:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/multi/\NLW_temp_reg[4]_i_1_CO_UNCONNECTED ">
+      <obj_property name="ElementShortName">\NLW_temp_reg[4]_i_1_CO_UNCONNECTED [2:0]</obj_property>
+      <obj_property name="ObjectShortName">\NLW_temp_reg[4]_i_1_CO_UNCONNECTED [2:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/multi/\NLW_temp_reg[8]_i_1_CO_UNCONNECTED ">
+      <obj_property name="ElementShortName">\NLW_temp_reg[8]_i_1_CO_UNCONNECTED [2:0]</obj_property>
+      <obj_property name="ObjectShortName">\NLW_temp_reg[8]_i_1_CO_UNCONNECTED [2:0]</obj_property>
+   </wvobject>
+</wave_config>
