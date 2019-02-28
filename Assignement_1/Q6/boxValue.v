@@ -1,25 +1,5 @@
 `timescale 1ns / 1ps
-//////////////////////////////////////////////////////////////////////////////////
-// Company: 
-// Engineer: 
-// 
-// Create Date: 27.02.2019 03:11:54
-// Design Name: 
-// Module Name: check3
-// Project Name: 
-// Target Devices: 
-// Tool Versions: 
-// Description: 
-// 
-// Dependencies: 
-// 
-// Revision:
-// Revision 0.01 - File Created
-// Additional Comments:
-// 
-//////////////////////////////////////////////////////////////////////////////////
-
-
+// Auxilary Function for Q6
 module boxValue(
     input[1:0] value, 
     input turn,
@@ -27,9 +7,9 @@ module boxValue(
     );
     wire isX,isZero;
     
-    assign isX = (value[1] & value[0]);
-    assign isZero = ~(value[1] | value[0]);
+    assign isX = (value[1] & value[0]);         // Box is marked X if both bits are 1
+    assign isZero = ~(value[1] | value[0]);     // Box is marked O if both bits are 0
     
-    assign isPresent = (turn & isX) | (~turn & isZero);
-    assign isBlank = ~(isX | isZero);
+    assign isPresent = (turn & isX) | (~turn & isZero);  // Box is marked if its the given player's turn and if thier mark is present
+    assign isBlank = ~(isX | isZero); // Blank if no mark present
 endmodule

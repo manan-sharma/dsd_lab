@@ -1,25 +1,5 @@
 `timescale 1ns / 1ps
-//////////////////////////////////////////////////////////////////////////////////
-// Company: 
-// Engineer: 
-// 
-// Create Date: 27.02.2019 03:11:54
-// Design Name: 
-// Module Name: check3
-// Project Name: 
-// Target Devices: 
-// Tool Versions: 
-// Description: 
-// 
-// Dependencies: 
-// 
-// Revision:
-// Revision 0.01 - File Created
-// Additional Comments:
-// 
-//////////////////////////////////////////////////////////////////////////////////
-
-
+// Auxilary Module for Q6
 module check3(
     input [1:0] v1, v2, v3, 
     input turn,
@@ -32,5 +12,6 @@ module check3(
     boxValue bv2(v2,turn, isP2, isB2);
     boxValue bv3(v3,turn, isP3, isB3);
     
+    // win is possible if any 2 are correctly marked and the other is blank
     assign out = (isB1 & isP2 & isP3) | (isP1 & isB2 & isP3) | (isP1 & isP2 & isB3);
 endmodule
