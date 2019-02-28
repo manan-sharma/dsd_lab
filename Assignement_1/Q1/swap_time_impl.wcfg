@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="swap_time_impl.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="swap" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="1102083333fs"></ZoomStartTime>
+      <ZoomEndTime time="1519583334fs"></ZoomEndTime>
+      <Cursor1Time time="1500000000fs"></Cursor1Time>
+   </zoom_setting>
+   <WVObjectSize size="22" />
+   <wvobject db_ref_id="1" type="array" fp_name="/swap/A">
+      <obj_property name="ElementShortName">A[7:0]</obj_property>
+      <obj_property name="ObjectShortName">A[7:0]</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/swap/B">
+      <obj_property name="ElementShortName">B[7:0]</obj_property>
+      <obj_property name="ObjectShortName">B[7:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/swap/clk">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/swap/X">
+      <obj_property name="ElementShortName">X[7:0]</obj_property>
+      <obj_property name="ObjectShortName">X[7:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/swap/Y">
+      <obj_property name="ElementShortName">Y[7:0]</obj_property>
+      <obj_property name="ObjectShortName">Y[7:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/swap/swap_loadBar">
+      <obj_property name="ElementShortName">swap_loadBar</obj_property>
+      <obj_property name="ObjectShortName">swap_loadBar</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/swap/\A[0]_i_1_n_0 ">
+      <obj_property name="ElementShortName">\A[0]_i_1_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\A[0]_i_1_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/swap/\A[1]_i_1_n_0 ">
+      <obj_property name="ElementShortName">\A[1]_i_1_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\A[1]_i_1_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/swap/\A[2]_i_1_n_0 ">
+      <obj_property name="ElementShortName">\A[2]_i_1_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\A[2]_i_1_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/swap/\A[3]_i_1_n_0 ">
+      <obj_property name="ElementShortName">\A[3]_i_1_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\A[3]_i_1_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/swap/\A[4]_i_1_n_0 ">
+      <obj_property name="ElementShortName">\A[4]_i_1_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\A[4]_i_1_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/swap/\A[5]_i_1_n_0 ">
+      <obj_property name="ElementShortName">\A[5]_i_1_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\A[5]_i_1_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/swap/\A[6]_i_1_n_0 ">
+      <obj_property name="ElementShortName">\A[6]_i_1_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\A[6]_i_1_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/swap/\A[7]_i_1_n_0 ">
+      <obj_property name="ElementShortName">\A[7]_i_1_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\A[7]_i_1_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/swap/A_OBUF">
+      <obj_property name="ElementShortName">A_OBUF[7:0]</obj_property>
+      <obj_property name="ObjectShortName">A_OBUF[7:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/swap/B_OBUF">
+      <obj_property name="ElementShortName">B_OBUF[7:0]</obj_property>
+      <obj_property name="ObjectShortName">B_OBUF[7:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/swap/X_IBUF">
+      <obj_property name="ElementShortName">X_IBUF[7:0]</obj_property>
+      <obj_property name="ObjectShortName">X_IBUF[7:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/swap/Y_IBUF">
+      <obj_property name="ElementShortName">Y_IBUF[7:0]</obj_property>
+      <obj_property name="ObjectShortName">Y_IBUF[7:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/swap/clk_IBUF">
+      <obj_property name="ElementShortName">clk_IBUF</obj_property>
+      <obj_property name="ObjectShortName">clk_IBUF</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/swap/clk_IBUF_BUFG">
+      <obj_property name="ElementShortName">clk_IBUF_BUFG</obj_property>
+      <obj_property name="ObjectShortName">clk_IBUF_BUFG</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/swap/p_0_in">
+      <obj_property name="ElementShortName">p_0_in[7:0]</obj_property>
+      <obj_property name="ObjectShortName">p_0_in[7:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/swap/swap_loadBar_IBUF">
+      <obj_property name="ElementShortName">swap_loadBar_IBUF</obj_property>
+      <obj_property name="ObjectShortName">swap_loadBar_IBUF</obj_property>
+   </wvobject>
+</wave_config>
