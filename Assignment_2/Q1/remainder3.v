@@ -24,5 +24,5 @@ module remainder3(
         default: current <= s0;
         endcase
     end 
-    assign out = ((current==s1 && in==1'b1)||(current==s2)||(current==s0 && in==1'b0))? 1'b1 : 1'b0;
+    assign out = (current==s0)? 1'b1 : 1'b0;
 endmodule
