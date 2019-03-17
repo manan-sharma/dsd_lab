@@ -1,10 +1,10 @@
 `timescale 1ns / 1ps
-
+//Testbench for divisibility by 3 check 
 module testBench_q1();
 reg in, clk, rst;
-wire out;
+wire REM;
 
-remainder3 rem( .in(in), .out(out), .clk(clk), .rst(rst));
+remainder3 rem( .in(in), .REM(REM), .clk(clk), .rst(rst));
 
 initial begin
 clk = 1'b1;
