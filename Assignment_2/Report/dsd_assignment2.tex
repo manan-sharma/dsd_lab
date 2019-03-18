@@ -27,7 +27,7 @@
 \usepackage{csquotes}
 \renewcommand{\lstlistingname}{Code}
 \hypersetup{
-	bookmarks=true,         
+	bookmarks=false,         
 	unicode=true,         
 	pdftoolbar=false,        
 	pdfmenubar=false,        
@@ -81,7 +81,7 @@
 		\caption[]{Resource Utilization for Q1}
 		\label{fig:q1utilization}
 	\end{figure}
-	 
+	Question done by Manan.\\
 	 
 	 \section*{Question 2}
 	 Design a finite state machine for 8-bit restoring division. Write a synthesisable verilog code for the same.
@@ -117,7 +117,7 @@
 	 	\caption[]{Resource Utilization for Q2}
 	 	\label{fig:q2utilization}
 	 \end{figure}
-	 
+	 Question done by Anirudh.\\
 	  \section*{Question 3}
 	 Design a finite state machine for 8-bit non restoring division. Write a synthesisable verilog code for the same. 
 	 \begin{figure}[H]
@@ -152,9 +152,13 @@
 	 	\caption[]{Resource Utilization for Q3}
 	 	\label{fig:q3utilization}
 	 \end{figure}
- 
+ 	Question done by Manan. Uses the same testbench as Q2, written by Anirudh.
  	\section*{Question 4}
  	Design a finite-state machine that illustrates the operation of a digital watch with two function buttons. Each successive push of button 1 causes the watch to change from displaying the time, to setting the hours, to setting the minutes and back to displaying the time again and so on. Button 2 allows the user to increment either the hours or the minutes when the watch is in the appropriate state.
+ 	
+ 	\textbf{Our Approach}:\\
+ 	Input to the system is of the format \{Button1, Button2\}, with a push and release being represented by 1, otherwise 0. Also, we assume that there are outputs like (++hr) and (++min) available, which will respectively increment hour or minute when the respective output is made 1. The FSM for the same is given in Figure \ref{fig:q4fsm}.\\
+ 	Question done by Manan.
 	\begin{figure}[H]
 		\centering
 		\includegraphics[scale=0.12]{images/q4fsm}
@@ -170,6 +174,10 @@
 	\end{figure}
 	\section*{Question 5}
 	Design an FSM for a digital hardware circuit used to control an automatic teller machine that performs three tasks: tells the user the balance of his bank account, permits the user to withdraw an amount of money not greater than the balance on his account, and permits the user to deposit money into his account.
+	\\
+	\textbf{Our Approach:}\\
+	The inputs here are the respective actions by the user. A FSM for the same is given in Figure \ref{fig:q5fsm}. \\
+	Question done by Anirudh BH.
 	
 	\begin{figure}[H]
 		\centering
@@ -186,7 +194,10 @@
 	\end{figure}
 	\section*{Question 6}
 	The overall objective is to create a line tracking robot. The system has two digital
-	inputs and two digital outputs. You can simulate the system with two switches and two LEDs, or build a robot with two DC motors and two optical reflectance sensors. Both sensor inputs will be on if the machine is completely on the line. One sensor input will be on and the other off if the machine is just going off the track. If the machine is totally off the line, then both sensor inputs will be off. Implement the controller using a finite state machine. Choose a Moore or Mealy format as appropriate.
+	inputs and two digital outputs. You can simulate the system with two switches and two LEDs, or build a robot with two DC motors and two optical reflectance sensors. Both sensor inputs will be on if the machine is completely on the line. One sensor input will be on and the other off if the machine is just going off the track. If the machine is totally off the line, then both sensor inputs will be off. Implement the controller using a finite state machine. Choose a Moore or Mealy format as appropriate.\\
+	\textbf{Our approach:}\\
+	Input to the moore machine is of the format \{leftsensor,rightsensor\}. \\Output is of the format \{leftmotor,rightmotor\}. For the output, 1 signifies that that respective motor is on. \\
+	Question done by Anirudh BH.
 	\begin{figure}[H]
 		\centering
 		\includegraphics[scale=0.1]{images/q6fsm}
@@ -211,6 +222,9 @@
 	7. The events are: 0, 1, ...9.\\
 	8. The actions are: LOCK, UNLOCK, ALARM and none (X).\\
 	Draw the diagram that describes the behaviour of this FSM.\\
+	\textbf{Our approach: }\\
+	Input to the system is key presses from the number pad. A press here means hold and release of the respective number. Until the correct sequence is entered, no action is performed (ie the door remains locked). If 1,1,3,8 are entered, the door is unlocked, and is locked again if 0 is entered. If 1,1,3,0 is entered, the door remains locked and alarm is sounded. And if the first digits entered itself are wrong, the system goes to a state S6 and keeps the door locked forever. A detailed FSM is given in Figure \ref{fig:q7fsm}.\\
+	Question done by Manan.
 	\begin{figure}[H]
 		\centering
 		\includegraphics[scale=0.7]{images/q7fsm}

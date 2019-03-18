@@ -12,7 +12,7 @@ module restoring8bit(
     reg [15:0] remainder;	
     reg msbpartial;
     reg [16:0] neg_divisor, temp;
-    reg [3:0] counter;		//counter to keep track of the no of clock cycles elapsed
+    reg [3:0] counter;//counter to keep track of the no of clock cycles elapsed
     
     always @(posedge clk, negedge rst)
     begin
