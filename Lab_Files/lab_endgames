@@ -1,0 +1,160 @@
+`timescale 1ns / 1ps
+//////////////////////////////////////////////////////////////////////////////////
+// Company: 
+// Engineer: 
+// 
+// Create Date: 28.03.2019 09:07:10
+// Design Name: 
+// Module Name: fsm_lock
+// Project Name: 
+// Target Devices: 
+// Tool Versions: 
+// Description: 
+// 
+// Dependencies: 
+// 
+// Revision:
+// Revision 0.01 - File Created
+// Additional Comments:
+// 
+//////////////////////////////////////////////////////////////////////////////////
+
+
+module fsm_lock(
+input clk,
+input [3:0] key,
+output lock, sec,
+output reg clock_led,
+output reg [3:0]led
+    );
+
+reg s_clk;
+reg [3:0] state;
+reg [24:0] count;
+reg [24:0] count1;
+reg blink;
+localparam[3:0]
+    reset=0, got1100=1, got0110=2, got0011=3, secure = 4;
+initial
+    begin
+        state<=reset;
+        led[3:0] <= 0;
+        count<=0;
+        count1<=0;
+    end 
+always@(posedge clk)
+        begin
+            count1 <= count1 + 1;
+            if(count1==50000000) 
+            begin
+            s_clk <= ~s_clk;
+            count1 = 0;
+            end
+            else    s_clk <= s_clk;
+        end
+always@(posedge clk)
+            begin
+                count <= count + 1;
+                if(count==2500000) 
+                begin
+                blink <= ~blink;
+                count = 0;
+                end
+                else    blink <= blink;
+            end
+
+
+//slow_clk C1(clk, 2500000 , s_clk); 
+//slow_clk C2(clk, 250000 , blink);
+
+
+always@(posedge blink)
+    begin
+        case(state)
+    
+    reset:
+    begin
+        led[2:0] <= 0;
+        led[3] <= ~led[3];
+    end
+    
+    got1100:
+    begin
+        led[1:0] <= 0;
+        led[3:2] <= ~led[3:2];
+    end
+        
+    got0110:
+    begin
+        led[0] <= 0;
+        led[3:1] <= ~led[3:1];
+    end
+
+    
+    got0011:
+    begin
+       led[3:0] <= ~led[3:0];
+    end
+    
+    secure:
+    begin
+        led[3:0] <=0;
+    end
+    
+    default: led[3:0]<=0;
+    endcase
+    end
+
+always @(posedge s_clk)  
+    begin
+    clock_led = ~clock_led; 
+        case(state)
+        
+        reset:
+        begin
+            if(key ==4'b1100)
+                state<=got1100;
+            else
+                state<=state;
+        end
+        
+        got1100:
+        begin
+            if(key == 4'b0110)
+                state<=got0110;
+            else
+               state<=secure;
+        end
+        
+        got0110:
+        begin
+            if(key == 4'b0011)
+                state<=got0011;
+            else
+                state<=secure;
+        end
+        
+        got0011:
+        begin
+            if(key==4'b0000)
+                state<=reset;
+            else
+                state<=got0011;
+        end
+        
+        secure:
+        begin
+            if(key==4'b0101)
+                state<=reset;
+            else
+                state<=secure;
+        end
+        default: state<=reset;
+        endcase
+        
+        
+    end
+    assign lock = (state == got0011)?0:1;
+    assign sec = (state == secure)?1:0;
+endmodule
+
